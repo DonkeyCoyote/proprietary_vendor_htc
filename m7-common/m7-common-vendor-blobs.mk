@@ -141,6 +141,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
         vendor/htc/m7-common/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
         vendor/htc/m7-common/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
+        vendor/htc/m7-common/proprietary/lib/libril.so:/system/lib/libril.so \
         vendor/htc/m7-common/proprietary/lib/libwriteback.so:/system/lib/libwriteback.so \
         vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:/system/etc/firmware/ILP0100_IPM_Code_out.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
