@@ -109,6 +109,15 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libchromatix_ov2722_hdr.so:/system/lib/libchromatix_ov2722_hdr.so \
         vendor/htc/m7-common/proprietary/lib/libchromatix_ov2722_preview.so:/system/lib/libchromatix_ov2722_preview.so \
         vendor/htc/m7-common/proprietary/lib/libchromatix_ov2722_zsl.so:/system/lib/libchromatix_ov2722_zsl.so \
+        vendor/htc/m7-common/proprietary/lib/libchromatix_ov4688_default_video.so:/system/lib/libchromatix_ov4688_default_video.so \
+        vendor/htc/m7-common/proprietary/lib/libchromatix_ov4688_hdr.so:/system/lib/libchromatix_ov4688_hdr.so \
+        vendor/htc/m7-common/proprietary/lib/libchromatix_ov4688_hfr.so:/system/lib/libchromatix_ov4688_hfr.so \
+        vendor/htc/m7-common/proprietary/lib/libchromatix_ov4688_hfr_60fps.so:/system/lib/libchromatix_ov4688_hfr_60fps.so \
+        vendor/htc/m7-common/proprietary/lib/libchromatix_ov4688_night.so:/system/lib/libchromatix_ov4688_night.so \
+        vendor/htc/m7-common/proprietary/lib/libchromatix_ov4688_preview.so:/system/lib/libchromatix_ov4688_preview.so \
+        vendor/htc/m7-common/proprietary/lib/libchromatix_ov4688_video_hdr.so:/system/lib/libchromatix_ov4688_video_hdr.so \
+        vendor/htc/m7-common/proprietary/lib/libchromatix_ov4688_zoe.so:/system/lib/libchromatix_ov4688_zoe.so \
+        vendor/htc/m7-common/proprietary/lib/libchromatix_ov4688_zsl.so:/system/lib/libchromatix_ov4688_zsl.so \
         vendor/htc/m7-common/proprietary/lib/libchromatix_vd6869_default_video.so:/system/lib/libchromatix_vd6869_default_video.so \
         vendor/htc/m7-common/proprietary/lib/libchromatix_vd6869_hdr.so:/system/lib/libchromatix_vd6869_hdr.so \
         vendor/htc/m7-common/proprietary/lib/libchromatix_vd6869_hfr.so:/system/lib/libchromatix_vd6869_hfr.so \
@@ -146,6 +155,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
         vendor/htc/m7-common/proprietary/lib/libgeofence.so:/system/lib/libgeofence.so \
         vendor/htc/m7-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
+        vendor/htc/m7-common/proprietary/lib/libCB.so:/system/lib/libCB.so \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
         vendor/htc/m7-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -175,6 +185,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
         vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
         vendor/htc/m7-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
+        vendor/htc/m7-common/proprietary/lib/libExtendedExtractor.so:/system/lib/libExtendedExtractor.so \
         vendor/htc/m7-common/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
         vendor/htc/m7-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
