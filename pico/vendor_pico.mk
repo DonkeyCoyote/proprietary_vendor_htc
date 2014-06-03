@@ -25,17 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pico/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
     vendor/htc/pico/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so
 
-# WiFi
-PRODUCT_COPY_FILES += \
-    vendor/htc/pico/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/htc/pico/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/htc/pico/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/htc/pico/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/htc/pico/etc/firmware/fw_bcm4330_b2.bin:system/etc/firmware/fw_bcmdhd.bin \
-    vendor/htc/pico/etc/firmware/fw_bcm4330_apsta_b2.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
-    vendor/htc/pico/etc/firmware/fw_bcm4330_p2p_b2.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
-    vendor/htc/pico/etc/dhcpd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf
-
 # Audio
 PRODUCT_COPY_FILES += \
     vendor/htc/pico/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
